@@ -90,4 +90,4 @@ Initially it may appear as a bug, but instead it's a feature.
 
 The rationale behind this is that packages in the tree can be quite specific, e.g. containing some additional files or whatever else. So it's safer to disable autogeneration of ebuilds for such packages. From the other side you always can switch this generation on editing a config, so you have a choice.
 
-Sometimes you need to generate; in that case you need to remove them from the `excludes` list inside `gs-elpa.json`.
+Sometimes you need to generate; in that case you need to remove them from the `exclude` list inside `gs-elpa.json`.
